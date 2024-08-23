@@ -9,7 +9,7 @@ import ProductsRow from './ProductsRow';
 export {
   HeroArea,
   HighlightedPromo,
-  FeaturedPromo,
+  //FeaturedPromo,
   DiscountOffers,
   CategoriesList,
   ItemsCarousel,

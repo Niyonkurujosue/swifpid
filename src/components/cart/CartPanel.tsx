@@ -133,7 +133,7 @@ const CartPanel = () => {
                   <div className="px-4 text-xs space-y-2 py-2">
                     <div className="flex items-start justify-between _text-default">
                       <span>MRP</span>
-                      <span>₹{totalAmount}</span>
+                      <span>rwf{totalAmount}</span>
                     </div>
                     <div className="flex items-start justify-between _text-default">
                       <span>Product discount</span>

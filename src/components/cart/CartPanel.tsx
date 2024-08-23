@@ -27,13 +27,13 @@ const CartPanelItem = (props: CartItem) => {
           {mrp ? (
             <div className="flex gap-2 items-center">
               <span className="text-[15px] text-black font-bold leading-none">
-                ₹{price}
+                rwf{price}
               </span>
-              <del className="text-[14px] text-gray-500">₹{mrp}</del>
+              <del className="text-[14px] text-gray-500">rwf{mrp}</del>
             </div>
           ) : (
             <div>
-              <span className="text-[14px] _text-default">₹{price}</span>
+              <span className="text-[14px] _text-default">rwf{price}</span>
             </div>
           )}
           <div className="h-9 w-[90px]">
@@ -137,7 +137,7 @@ const CartPanel = () => {
                     </div>
                     <div className="flex items-start justify-between _text-default">
                       <span>Product discount</span>
-                      <span>- ₹{discount}</span>
+                      <span>- rwf{discount}</span>
                     </div>
                     <div className="flex items-start justify-between _text-default">
                       <p className="flex flex-col">
@@ -147,12 +147,12 @@ const CartPanel = () => {
                         </span>
                       </p>
                       <span>
-                        ₹15 <span className="text-[#0c831f]">free</span>{' '}
+                        rwf15 <span className="text-[#0c831f]">free</span>{' '}
                       </span>
                     </div>
                     <div className="flex items-start justify-between text-[14px] text-black font-bold py-2">
                       <span>Bill total</span>
-                      <span>₹{billAmount}</span>
+                      <span>rwf{billAmount}</span>
                     </div>
                   </div>
                   <div className="px-4 py-2 border-t-2 bg-neutral-100 text-xs _text-muted border-b _border-muted">
@@ -166,8 +166,8 @@ const CartPanel = () => {
                 <div className="font-bold">{totalQuantity} Items</div>
                 <div className="font-bold">&nbsp; &middot; &nbsp;</div>
                 <div>
-                  <span className="font-extrabold">₹{billAmount}</span>
-                  <del className="text-sm ml-1">₹{totalAmount}</del>
+                  <span className="font-extrabold">rwf{billAmount}</span>
+                  <del className="text-sm ml-1">rwf{totalAmount}</del>
                 </div>
                 <div className="ml-auto flex items-center font-bold">
                   Proceed <FiChevronRight size={18} className="ml-2" />

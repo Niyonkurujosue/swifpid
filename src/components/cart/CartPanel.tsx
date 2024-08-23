@@ -143,7 +143,7 @@ const CartPanel = () => {
                       <p className="flex flex-col">
                         <span>Delivery charge</span>
                         <span className="text-[#0c831f]">
-                          Hooray! You saved ₹15 on delivery charge
+                          Hooray! You saved rwf15 on delivery charge
                         </span>
                       </p>
                       <span>

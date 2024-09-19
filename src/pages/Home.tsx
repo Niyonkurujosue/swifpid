@@ -2,7 +2,7 @@ import {
   HeroArea,
   CategoriesList,
   DiscountOffers,
-  FeaturedPromo,
+  // FeaturedPromo,
   HighlightedPromo,
   ProductsRow,
 } from '../components/home';
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div className="_container">
       {/* <HeroArea /> */}
-      <FeaturedPromo />
+{/*       <FeaturedPromo /> */}
       <CategoriesList />
       <DiscountOffers />
       <HighlightedPromo />

@@ -38,14 +38,14 @@ const UsefulLinks: string[] = [
 ];
 
 const PaymentPartners = [
-  {
-    logoName: 'mobikwik',
-    alt: 'MobikWik',
-  },
-  {
-    logoName: 'paytm',
-    alt: 'PayTm',
-  },
+  // {
+  //   logoName: 'mobikwik',
+  //   alt: 'MobikWik',
+  // },
+  // {
+  //   logoName: 'paytm',
+  //   alt: 'PayTm',
+  // },
   {
     logoName: 'visa',
     alt: 'Visa',
@@ -54,37 +54,37 @@ const PaymentPartners = [
     logoName: 'mastercard',
     alt: 'Mastercard',
   },
+  // {
+  //   logoName: 'maestro',
+  //   alt: 'Maestro',
+  // },
+  // {
+  //   logoName: 'rupay',
+  //   alt: 'RuPay',
+  // },
+  // {
+  //   logoName: 'amex',
+  //   alt: 'American Express',
+  // },
+  // {
+  //   logoName: 'sodex',
+  //   alt: 'Sodexo',
+  // },
+  // {
+  //   logoName: 'bhim',
+  //   alt: 'BHIM UPI',
+  // },
+  // {
+  //   logoName: '',
+  //   alt: 'Net Banking',
+  // },
   {
-    logoName: 'maestro',
-    alt: 'Maestro',
-  },
-  {
-    logoName: 'rupay',
-    alt: 'RuPay',
-  },
-  {
-    logoName: 'amex',
-    alt: 'American Express',
-  },
-  {
-    logoName: 'sodex',
-    alt: 'Sodexo',
-  },
-  {
-    logoName: 'bhim',
-    alt: 'BHIM UPI',
-  },
-  {
-    logoName: '',
-    alt: 'Net Banking',
-  },
-  {
-    logoName: '',
+    logoName: 'cash-on-delivery',
     alt: 'Cash on Delivery',
   },
   {
-    logoName: '',
-    alt: 'bringIt cash',
+    logoName: 'momo-cash',
+    alt: 'MOMO cash',
   },
 ];
 
@@ -135,7 +135,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+{/*         <div>
           <h4 className="font-bold my-6 text-lg">Brands</h4>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             {allBrands.map((brand, i) => (
@@ -143,7 +143,7 @@ const Footer = () => {
                 <span className="_text-default text-sm">{brand.text}</span>
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
         <div>
           <h4 className="font-bold my-6 text-lg">Payment partners</h4>

@@ -143,8 +143,8 @@ const Footer = () => {
                 <span className="_text-default text-sm">{brand.text}</span>
               </Link>
             ))}
-          </div> */}
-        </div>
+          </div>
+        </div> */}
         <div>
           <h4 className="font-bold my-6 text-lg">Payment partners</h4>
           <div className="flex flex-wrap gap-x-6 gap-y-1 mb-12">

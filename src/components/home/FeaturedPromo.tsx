@@ -77,4 +77,4 @@ const FeaturedPromo = () => {
   );
 };
 
-export default FeaturedPromo;
+export FeaturedPromo;

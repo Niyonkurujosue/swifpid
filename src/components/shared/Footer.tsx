@@ -83,7 +83,7 @@ const PaymentPartners = [
     alt: 'Cash on Delivery',
   },
   {
-    logoName: 'mtn',
+    logoName: '',
     alt: 'MOMO cash',
   },
 ];

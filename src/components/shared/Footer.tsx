@@ -135,7 +135,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+{/*         <div>
           <h4 className="font-bold my-6 text-lg">Brands</h4>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             {allBrands.map((brand, i) => (
@@ -144,7 +144,7 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-        </div>
+        </div> */}
         <div>
           <h4 className="font-bold my-6 text-lg">Payment partners</h4>
           <div className="flex flex-wrap gap-x-6 gap-y-1 mb-12">

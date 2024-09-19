@@ -79,11 +79,11 @@ const PaymentPartners = [
   //   alt: 'Net Banking',
   // },
   {
-    logoName: 'cash-on-delivery',
+    logoName: '',
     alt: 'Cash on Delivery',
   },
   {
-    logoName: 'momo-cash',
+    logoName: 'mtn',
     alt: 'MOMO cash',
   },
 ];

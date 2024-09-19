@@ -21,7 +21,7 @@ const Home = () => {
       {/* <HeroArea /> */}
 {/*       <FeaturedPromo /> */}
       <CategoriesList />
-      // <DiscountOffers />
+        {/*  <DiscountOffers /> */}
       <HighlightedPromo />
       {productItems.map((products, i) => (
         <ProductsRow key={i} {...products} />

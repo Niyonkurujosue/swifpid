@@ -72,7 +72,7 @@ const BrandPromotion = () => {
               </div>
               <div className="flex flex-col justify-center">
                 <h2 className="text-4xl font-extrabold tracking-wide mb-6">
-                  Get the bringit app
+                  Get the swifpid app
                 </h2>
                 <div className="text-lg space-y-2">
                   <div className="flex items-center">
@@ -96,7 +96,7 @@ const BrandPromotion = () => {
                   </div>
                   <div className="flex flex-col justify-center">
                     <p className="font-extrabold text-lg max-w-[300px] _text-default">
-                      Simple way to download the BringIt app
+                      Simple way to download the swifpid app
                     </p>
                     <span className="text-sm _text-default">
                       Scan QR code and download now
@@ -105,7 +105,7 @@ const BrandPromotion = () => {
                 </div>
                 <div className="block lg:hidden mt-6">
                   <h4 className="font-semibold text-md leading-none mb-4">
-                    Download the BringIt App Now
+                    Download the swifpid App Now
                   </h4>
                   <div className="flex flex-col xs:flex-row gap-2">
                     <div className="xs:flex-1 h-12 rounded cursor-pointer overflow-hidden bg-[#213b50]">
@@ -132,15 +132,15 @@ const BrandPromotion = () => {
               <PromoFeature key={i} {...feat} />
             ))}
           </div>
-          <div className="border-b _border-light pt-2 pb-10">
+{/*           <div className="border-b _border-light pt-2 pb-10">
             <p className="text-sm _text-default">
-              "BringIt" is owned & managed by "Bring Commerce Private Limited"
+              "swifpid" is owned & managed by "Bring Commerce Private Limited"
               (formerly known as Loafers Inc Private Limited) and is not
               related, linked or interconnected in whatsoever manner or nature,
               to "LOAFER.COM" which is a real estate services business operated
               by "Blackstone Consultancy Services Fake Limited".
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

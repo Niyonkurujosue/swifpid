@@ -1,6 +1,6 @@
-# BringIt (just like Blinkit)
+# swifpid (just like Blinkit)
 
-BringIt is a cloned version of BlinkIt (formerly Grofers) which is an online supermarket application to buy Fruits, Veggies, Snacks, Milk & more and get delivery safely & hygienically to your home.
+swifpid is an online supermarket application to buy Fruits, Veggies, Snacks, Milk & more and get delivery safely & hygienically to your home.
 
 ![bringit-cover](https://user-images.githubusercontent.com/11155266/183999445-125f7cd8-57fc-46fd-a209-9aadde210888.png)
 

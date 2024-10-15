@@ -1,8 +1,8 @@
 # swifpid (just like Blinkit)
 
-swifpid is an online supermarket application to buy Fruits, Veggies, Snacks, Milk & more and get delivery safely & hygienically to your home.
+swifpid is an online groceries and home essential application to buy Fruits, Veggies, Snacks, Milk & more and get delivery safely & hygienically to your home.
 
-![bringit-cover](https://user-images.githubusercontent.com/11155266/183999445-125f7cd8-57fc-46fd-a209-9aadde210888.png)
+![swifpid-cover](https://user-images.githubusercontent.com/11155266/183999445-125f7cd8-57fc-46fd-a209-9aadde210888.png)
 
 ### Features
 One can browse through various items, see their details, see similar products, add items to cart, view or edit them.

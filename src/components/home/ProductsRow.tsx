@@ -1,5 +1,6 @@
-import { ProductRow } from '../../utils/types';
-import ItemsCarousel from '../shared/ItemsCarousel';
+import { Link } from "react-router-dom";
+import { ProductRow } from "../../utils/types";
+import ItemsCarousel from "../shared/ItemsCarousel";
 
 const ProductsRow = ({ data, objects }: ProductRow) => {
   const products = objects.map((obj) =>
@@ -12,9 +13,12 @@ const ProductsRow = ({ data, objects }: ProductRow) => {
         <div className="flex items-center justify-between h-16">
           <h2 className="font-bold text-[26px] _text-default">{data.title}</h2>
           {data.show_view_all && (
-            <span className="text-green-700 font-bold cursor-pointer text-lg">
+            <Link
+              to={`/cn/${data.title}/cid/${data.id}`}
+              className="text-green-700 font-bold cursor-pointer text-lg"
+            >
               {data.title_action}
-            </span>
+            </Link>
           )}
         </div>
       )}

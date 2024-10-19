@@ -1,9 +1,10 @@
-import React, { Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { Home, Error404 } from './pages';
-import { Loader } from './components/shared';
-import Layout from './components/Layout';
-const ProductView = React.lazy(() => import('./pages/ProductView'));
+import React, { Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+import { Home, Error404 } from "./pages";
+import { Loader } from "./components/shared";
+import Layout from "./components/Layout";
+const ProductView = React.lazy(() => import("./pages/ProductView"));
+const CategoryView = React.lazy(() => import("./pages/CategoryView"));
 
 const AppWithRouting = () => {
   return (
@@ -14,6 +15,14 @@ const AppWithRouting = () => {
         element={
           <Suspense fallback={<Loader fullscreen />}>
             <Layout component={<ProductView />} />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/cn/:title/cid/:id"
+        element={
+          <Suspense fallback={<Loader fullscreen />}>
+            <Layout component={<CategoryView />} />
           </Suspense>
         }
       />
